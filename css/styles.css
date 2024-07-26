@@ -97,6 +97,20 @@
   transition: all 0.3s ease;
 }
 
+.button-white {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 25px; /* Adjusts the roundness of the button */
+  transition: all 0.3s ease;
+}
+
 .button:hover {
   background-color: black;
   color: white;
@@ -147,7 +161,7 @@
 
 .gallery .image {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: 70%; /* Maintain aspect ratio */
   transition: transform 0.3s ease-in-out; /* Smooth transformation on hover */
 }
 
@@ -214,7 +228,6 @@ hr {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -284,7 +297,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 
 ol,
@@ -7843,7 +7856,7 @@ textarea.form-control-lg {
 }
 
 .mt-2 {
-  margin-top: 0.5rem !important;
+  margin-top: 4rem !important;
 }
 
 .mt-3 {
@@ -8344,7 +8357,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255 255 255 / 73%) !important;
 }
 
 .text-reset {
@@ -11178,7 +11191,7 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #d0c9c9;
   -webkit-background-clip: text;
           background-clip: text;
 }
